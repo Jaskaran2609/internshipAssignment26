@@ -1,0 +1,39 @@
+.parent{
+    /* max-width: 1 vw; */
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #e9ecef;
+}
+ .parent .cardsContainer{
+    
+    width: 70vw;
+
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media (max-width:750px) {
+    .parent .cardsContainer {
+        display: flex;
+        /* width: 1vw; This might be problematic */
+        flex-direction: column;
+        width: 80vw;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1050px)
+{
+    .parent .cardsContainer {
+        display: flex;
+        /* width: 1vw; This might be problematic */
+        flex-direction: row;
+        width: 80vw;
+    }
+}
+

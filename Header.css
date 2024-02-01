@@ -1,0 +1,14 @@
+#heading{
+    height: 10vh;
+    text-align: center;
+    color: #edede9;
+    font-family: 'Single Day', cursive;
+    
+    font-size: 1.5rem ;
+
+
+    background: linear-gradient(90deg, rgba(0, 188, 212, 1) 0%, rgba(63, 81, 181, 1) 100%);
+}
+#heading .cardscollection{
+    padding-top: 15px;
+}
